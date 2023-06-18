@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 
-const cable = () => {
+const Cable = () => {
   const [menu, setMenu] = useState([
     {
       id: 1,
@@ -112,4 +112,4 @@ const cable = () => {
   )
 }
 
-export default cable
+export default Cable

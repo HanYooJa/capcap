@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 
-const usb = () => {
+const Usb = () => {
   const [menu, setMenu] = useState([
     {
       id: 1,
@@ -112,4 +112,4 @@ const usb = () => {
   )
 }
 
-export default usb
+export default Usb
