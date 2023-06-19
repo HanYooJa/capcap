@@ -3,17 +3,17 @@ import React from 'react'
 
 const rent = () => {
   return (
-    <div>
-      <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <div class="t">
+      <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center mt-6">
         <h1 class="display-6">대여 할 기기를 선택해주세요</h1>
         <p class="lead">
           잘못 선택시 올바르지 않은 기기가 대여 될 수 있습니다😫 꼭! 확인하고
           골라주세요🫠
         </p>
       </div>
-      <div class="container mb-5">
-        <div class="card-deck mb-3 text-center">
-          <div class="card mb-4 shadow-sm">
+      <div class="container mt-6">
+        <div class="card-deck text-center">
+          <div class="card shadow-sm">
             <div class="card-header">
               <h4 class="my-0 font-weight-normal">노트북 충전기</h4>
             </div>
@@ -27,45 +27,46 @@ const rent = () => {
                 <li>LG Gram</li>
                 <li>Apple Macbook</li>
               </ul>
-              <div class="container">
+              <div class="container btnn">
                 <Link href="/laptop">
                   <button
                     type="button"
-                    class="btn btn-lg btn-block btn-outline-danger btn_re"
+                    class="btn btn-lg btn-block btn-outline-danger btn_re btn-me"
                   >
                     Click
                   </button>
                 </Link>
               </div>
             </div>
-            <div class="card mb-4 shadow-sm">
-              <div class="card-header">
-                <h4 class="my-0 font-weight-normal">무선마우스</h4>
-              </div>
-              <div class="card-body_r">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/3645/3645851.png"
-                  alt="마우스"
-                />
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Noiseless</li>
-                  <li>Wireless</li>
-                  <li>Logitech</li>
-                </ul>
-                <div class="container">
-                  <Link href="/mouse">
-                    <button
-                      type="button"
-                      class="btn btn-lg btn-block btn-outline-danger btn_re"
-                    >
-                      Click
-                    </button>
-                  </Link>
-                </div>
+          </div>
+
+          <div class="card shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">무선마우스</h4>
+            </div>
+            <div class="card-body_r">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/3645/3645851.png"
+                alt="마우스"
+              />
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Noiseless</li>
+                <li>Wireless</li>
+                <li>Logitech</li>
+              </ul>
+              <div class="container btnn">
+                <Link href="/mouse">
+                  <button
+                    type="button"
+                    class="btn btn-lg btn-block btn-outline-danger btn_re btn-me"
+                  >
+                    Click
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
-          <div class="card mb-4 shadow-sm">
+          <div class="card shadow-sm">
             <div class="card-header">
               <h4 class="my-0 font-weight-normal">USB</h4>
             </div>
@@ -79,11 +80,11 @@ const rent = () => {
                 <li>8GB</li>
                 <li>16GB</li>
               </ul>
-              <div class="container">
+              <div class="container btnn">
                 <Link href="/usb">
                   <button
                     type="button"
-                    class="btn btn-lg btn-block btn-outline-danger btn_re"
+                    class="btn btn-lg btn-block btn-outline-danger btn_re btn-me"
                   >
                     Click
                   </button>
@@ -91,7 +92,7 @@ const rent = () => {
               </div>
             </div>
           </div>
-          <div class="card mb-4 shadow-sm">
+          <div class="card shadow-sm">
             <div class="card-header">
               <h4 class="my-0 font-weight-normal">연결 케이블</h4>
             </div>
@@ -105,11 +106,11 @@ const rent = () => {
                 <li>C TYPE</li>
                 <li>Camera</li>
               </ul>
-              <div class="container">
+              <div class="container btnn">
                 <Link href="/cable">
                   <button
                     type="button"
-                    class="btn btn-lg btn-block btn-outline-danger btn_re"
+                    class="btn btn-lg btn-block btn-outline-danger btn_re btn-me"
                   >
                     Click
                   </button>

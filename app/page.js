@@ -5,7 +5,7 @@ import Header from './components/Header'
 
 const Home = () => {
   return (
-    <div className="bg-white-500 min-h-screen">
+    <div className="bg-white-500">
       <Head>
         <title>전자기기 대여 서비스</title>
         <link rel="stylesheet" href="/styles.css" />
@@ -13,7 +13,7 @@ const Home = () => {
       <main className="container mx-auto p-4">
         <section>
           <div>
-            <img src="main.jpg"></img>
+            <img src="main.jpg" alt="노트북" style={{ height: '600px' }}></img>
           </div>
 
           <div className="container">

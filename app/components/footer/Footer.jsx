@@ -11,8 +11,7 @@ const Footer = () => {
             <Link href="https://www.joongbu.ac.kr/index.es?sid=a1">
               회사소개
             </Link>
-            <Link href="/maker">개발자들</Link>
-            <Link href="/mhttps://bot.dialogflow.com/06f4b1a5-fa2f-4821-813c-23088abb102e">
+            <Link href="https://bot.dialogflow.com/06f4b1a5-fa2f-4821-813c-23088abb102e">
               자주 묻는 질문
             </Link>
           </h2>
